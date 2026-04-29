@@ -72,7 +72,7 @@ export default function Privacy({ showPage }) {
             <li>Withdraw consent for marketing communications.</li>
             <li>Restrict or object to certain data processing activities.</li>
           </ul>
-          <p style={{marginTop:'12px'}}>To exercise these rights, contact us at <a href="mailto:enquiry@zeenmediconnect.com">enquiry@zeenmediconnect.com</a>.</p>
+          <p style={{marginTop:'12px'}}>To exercise these rights, contact us at <a href="mailto:bd@zeenmediconnect.com">bd@zeenmediconnect.com</a>.</p>
         </div>
 
         <div className="policy-section">
@@ -95,7 +95,7 @@ export default function Privacy({ showPage }) {
           <div className="contact-grid">
             <div className="contact-item">
               <h4>Email</h4>
-              <a href="mailto:enquiry@zeenmediconnect.com">enquiry@zeenmediconnect.com</a>
+              <a href="mailto:bd@zeenmediconnect.com">bd@zeenmediconnect.com</a>
             </div>
             <div className="contact-item">
               <h4>Phone</h4>

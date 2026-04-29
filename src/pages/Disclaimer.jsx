@@ -26,7 +26,7 @@ export default function Disclaimer({ showPage }) {
           <div className="contact-grid">
             <div className="contact-item">
               <h4>Email</h4>
-              <a href="mailto:enquiry@zeenmediconnect.com">enquiry@zeenmediconnect.com</a>
+              <a href="mailto:bd@zeenmediconnect.com">bd@zeenmediconnect.com</a>
             </div>
             <div className="contact-item">
               <h4>Phone</h4>
