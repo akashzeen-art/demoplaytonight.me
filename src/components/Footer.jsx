@@ -10,6 +10,8 @@ export default function Footer({ showPage }) {
           <span><img src="/img/email.png" alt="" /><a href="mailto:bd@zeenmediconnect.com">bd@zeenmediconnect.com</a></span>
         </div>
         <p>
+          <a href="#" onClick={() => showPage('about')}>About Us</a> |{' '}
+          <a href="#" onClick={() => showPage('contact')}>Contact Us</a> |{' '}
           <a href="#" onClick={() => showPage('disclaimer')}>Disclaimer</a> |{' '}
           <a href="#" onClick={() => showPage('terms')}>Terms &amp; Conditions</a> |{' '}
           <a href="#" onClick={() => showPage('privacy')}>Privacy Policy</a> |{' '}

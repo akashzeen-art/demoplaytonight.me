@@ -99,7 +99,7 @@ export default function Privacy({ showPage }) {
             </div>
             <div className="contact-item">
               <h4>Phone</h4>
-              <p>92175 28957</p>
+              <p>+91 92175 28957</p>
             </div>
             <div className="contact-item">
               <h4>Address</h4>

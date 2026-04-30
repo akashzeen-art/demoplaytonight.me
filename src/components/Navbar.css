@@ -1,0 +1,42 @@
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 40px;
+  background: linear-gradient(90deg, #0a0a2e, #1a1a5e);
+  border-bottom: 2px solid #d4af37;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.4);
+  transition: background 0.3s, box-shadow 0.3s;
+}
+.navbar-scrolled {
+  background: #ffffff;
+  box-shadow: 0 2px 20px rgba(0,0,0,0.15);
+  border-bottom: 2px solid #d4af37;
+}
+.navbar-scrolled .navbar-links a { color: #0a0a2e; }
+.navbar-scrolled .navbar-links a:hover { color: #d4af37; }
+.navbar-logo { height: 52px; width: auto; object-fit: contain; cursor: pointer; filter: drop-shadow(0 2px 6px rgba(0,0,0,0.3)); }
+.navbar-brand { font-family: 'Bebas Neue', sans-serif; font-size: 28px; color: #d4af37; letter-spacing: 2px; cursor: pointer; }
+.hamburger { display: none; }
+.navbar-links { display: flex; gap: 32px; align-items: center; }
+.navbar-links a { color: #e8d5a3; text-decoration: none; font-size: 15px; font-weight: 600; letter-spacing: 0.5px; transition: color 0.2s; }
+.navbar-links a:hover { color: #d4af37; }
+
+@media (max-width: 768px) {
+  .navbar { padding: 10px 20px; }
+  .navbar-logo { height: 40px; }
+  .hamburger { display: flex; flex-direction: column; justify-content: space-between; width: 26px; height: 20px; background: none; border: none; cursor: pointer; padding: 0; z-index: 1100; }
+  .hamburger span { display: block; height: 3px; width: 100%; background: #d4af37; border-radius: 3px; transition: all 0.3s; }
+  .hamburger.open span:nth-child(1) { transform: translateY(8.5px) rotate(45deg); }
+  .hamburger.open span:nth-child(2) { opacity: 0; }
+  .hamburger.open span:nth-child(3) { transform: translateY(-8.5px) rotate(-45deg); }
+  .navbar-scrolled .hamburger span { background: #0a0a2e; }
+  .navbar-links { display: none; flex-direction: column; position: absolute; top: 62px; left: 0; right: 0; background: #fff; border-top: 2px solid #d4af37; padding: 16px 24px; gap: 0; box-shadow: 0 8px 24px rgba(0,0,0,0.12); }
+  .navbar-links.nav-open { display: flex; }
+  .navbar-links a { color: #0a0a2e; font-size: 15px; padding: 12px 0; border-bottom: 1px solid #f0e6c8; }
+  .navbar-links a:last-child { border-bottom: none; }
+  .navbar-links a:hover { color: #d4af37; }
+}
