@@ -9,7 +9,7 @@ const extracts = [
   {
     title: 'Tribulus terrestris Extract',
     info: ['Botanical Name: Tribulus terrestris', 'Active Marker: Saponins / Protodioscin'],
-    apps: ['Supports male vitality and testosterone modulation', 'Promotes energy, strength, and athletic performance', 'Used in managing urogenital health and overall endurance'],
+    apps: ['Supports male vitality and hormonal balance', 'Promotes energy, strength, and athletic performance', 'Used in managing urogenital health and overall endurance'],
   },
   {
     title: 'Lepidium sativum L. Extract (Garden Cress)',
